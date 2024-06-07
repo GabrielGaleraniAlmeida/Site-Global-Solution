@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icons8-onda-48.png" type="image/x-icon">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- BOOTSTRAP ICONS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>OCEAN</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+        
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#o-desafio">O Desafio</a>
+                        <ul>
+                            <li><a href="#o-problema">O Problema</a></li>
+                            <li><a href="#nosso-objetivo">Nosso Objetivo</a></li>
+                            <li><a href="#publico-impactado">Público Impactado</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#a-soluçao">A Solução</a>
+                        <ul>
+                            <li><a href="#a-tecnologia">A Tecnologia</a></li>
+                            <li><a href="#beneficios">Benefícios</a></li>
+                            <li><a href="#dia-a-dia">No Dia a Dia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#formulario">Fale Conosco</a></li>
+                    <a href="../cadastro/cadastro.html"><i class="bi bi-person-circle" id="icon-desktop"></i></a>
+                </ul>
+            </nav>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+                
+            </div> <!--btn-abrir-menu-->
+            <a href="../cadastro/cadastro.html"><i class="bi bi-person-circle"></i></a>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div> <!--btn-fechar-->
+
+                <nav >
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="#o-desafio">O Desafio</a></li>
+                        <li><a href="#a-soluçao">A Solução</a></li>
+                        <li><a href="#formulario">Fale Conosco</a></li>
+                    </ul>
+                </nav>
+
+            </div> <!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </div> <!--INTERFACE -->
+    </header> <!--início-->
+
+    <section class="home">
+        <div class="interface">
+            <div class="flex">
+                <div class="text-home">
+                    <h1>OCEAN</h1>
+                    <p>Health and Pollution</p>
+                    <a href="#o-desafio"><button class="btn-home">Veja Mais</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="desafio" id="o-desafio">
+        <h1 class="titulo">O Desafio</h1>
+        <div id="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <div id="slides">
+           <div id="overflow">
+              <div class="inner">
+                 <div class="slide slide_1" id="o-problema">
+                    <div class="slide-content1">
+                       <h1>O Problema</h1>
+                       <p>A qualidade da água dos oceanos e outros corpos hídricos é um problema crítico que afeta tanto o meio ambiente quanto a saúde humana. A poluição da água por substâncias químicas, resíduos sólidos, microplásticos, e outros contaminantes tem impactos negativos severos sobre a biodiversidade marinha, as economias costeiras e as comunidades humanas que dependem desses recursos. No entanto, monitorar a qualidade da água de forma eficaz e contínua é um desafio devido à vastidão dos oceanos, a variabilidade das fontes de poluição, e a necessidade de dados em tempo real para uma ação rápida e eficaz.</p>
+                       <img src="img/download.jpg" alt="">
+                    </div>
+                 </div>
+                 <div class="slide slide_2" id="nosso-objetivo">
+                    <div class="slide-content2">
+                       <h1>Nosso Objetivo</h1>
+                       <p>Os objetivos que pretendemos alcançar visam criar um sistema de monitoramento da qualidade da água que seja tecnicamente robusto, financeiramente sustentável e amplamente benéfico para o meio ambiente e as comunidades humanas. Esses objetivos nos guiarão na implementação e operação do sistema, garantindo que ele possa fazer uma diferença significativa na proteção dos recursos hídricos e na melhoria da saúde dos oceanos e das populações costeiras.</p>
+                       <img src="img/OIG4..JXmijAeJ.jpg" alt="">
+                       <img src="img/OIG4.H0JkhJrMMCxBCNX.jpg" alt="" class="img2">
+                    </div>
+                 </div>
+                 <div class="slide slide_3" id="publico-impactado">
+                    <div class="slide-content3">
+                       <h1>Público Impactado</h1>
+                       <p>A solução de monitoramento contínuo e em tempo real da qualidade da água impactará positivamente comunidades costeiras, órgãos governamentais, empresas, ONGs ambientais, pesquisadores, fornecedores de água potável e o público em geral. As comunidades costeiras se beneficiarão com a melhoria da saúde pública e maior conscientização ambiental, enquanto órgãos governamentais terão dados precisos para formular políticas eficazes. Empresas e indústrias poderão garantir conformidade ambiental e prevenir danos operacionais. ONGs e pesquisadores terão acesso a dados essenciais para suas atividades e estudos, e fornecedores de água assegurarão a qualidade do abastecimento. A população em geral ganhará com a melhoria ambiental e maior acesso a informações sobre a qualidade da água.</p>
+                        <img src="img/pngtree-poverished-coastal-community-in-coron-palawana-glimpse-into-philippine-slums-photo-image_45600102.jpg" alt="">
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div id="controls">
+           <label for="slide1"></label>
+           <label for="slide2"></label>
+           <label for="slide3"></label>
+        </div>
+        <div id="bullets">
+           <label for="slide1"></label>
+           <label for="slide2"></label>
+           <label for="slide3"></label>
+        </div>
+        </div>
+    </section>
+
+    <section class="solucao" id="a-soluçao">
+        <h1 class="titulo">A Solução</h1>
+        <div id="slider2">
+            <input type="radio" name="slider2" id="slide4" checked>
+            <input type="radio" name="slider2" id="slide5">
+            <input type="radio" name="slider2" id="slide6">
+            <div id="slides2">
+                <div id="overflow2">
+                    <div class="inner2">
+                        <div class="slide2 slide_4">
+                            <div class="slide-content4" id="a-tecnologia">
+                                <h1>A Tecnonogia</h1>
+                                <p>O sistema de monitoramento proposto utiliza um microcontrolador Arduino integrado com sensores de pH,
+                                temperatura e oxigênio dissolvido. O Arduino coleta dados em tempo real, que são transmitidos para um 
+                                servidor central via módulos de comunicação (GSM/WiFi). Esses dados são então processados e visualizados 
+                                em uma plataforma online, acessível a autoridades, cientistas e membros da comunidade. 
+                                A solução inclui a implementação de alertas automáticos para níveis críticos de poluição e uma interface 
+                                de display LCD opcional para leituras locais.</p>
+                                <img src="img/img3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="slide2 slide_5">
+                            <div class="slide-content5" id="beneficios">
+                                <h1>Benefícios</h1>
+                                <p>Nossa solução de monitoramento contínuo e em tempo real da qualidade da água oferece vários benefícios significativos,
+                                incluindo a melhoria da saúde pública e ambiental através da detecção rápida de poluentes, permitindo uma resposta 
+                                imediata a incidentes de poluição. Fornece dados precisos para a formulação de políticas públicas eficazes e 
+                                cumprimento de regulamentações ambientais, além de apoiar pesquisas científicas e campanhas de conscientização. 
+                                As comunidades costeiras e a população em geral se beneficiam com a maior conscientização e engajamento na proteção 
+                                ambiental, enquanto empresas e indústrias podem monitorar e garantir a qualidade da água de forma eficiente, 
+                                prevenindo danos operacionais e ambientais.</p>
+                                <img src="img/conceito-plano-de-poluicao-da-agua-com-oceano-poluido-sujo-e-ilustracao-vetorial-de-mar-verde-limpo_1284-79104.avif" alt="">
+                            </div>
+                        </div>
+                        <div class="slide2 slide_6">
+                            <div class="slide-content6" id="dia-a-dia">
+                                <h1>No Dia a Dia</h1>
+                                <p>Nossa solução ajudará no dia a dia da população ao fornecer informações em tempo real sobre a qualidade da água, 
+                                    permitindo que comunidades costeiras e qualquer usuário do sistema identifiquem e respondam rapidamente a 
+                                    incidentes de poluição, protegendo sua saúde e o meio ambiente. As autoridades e gestores ambientais terão dados 
+                                    precisos para tomar decisões informadas e implementar medidas preventivas e corretivas com mais eficiência. 
+                                    Empresas poderão garantir a conformidade ambiental e evitar interrupções em suas operações. Além disso, 
+                                    a plataforma educará e engajará a população em práticas sustentáveis, aumentando a conscientização e 
+                                    participação na conservação dos recursos hídricos.</p>
+                                <img src="img/img4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div id="controls2">
+                <label for="slide4"></label>
+                <label for="slide5"></label>
+                <label for="slide6"></label>
+                </div>
+                <div id="bullets2">
+                <label for="slide4"></label>
+                <label for="slide5"></label>
+                <label for="slide6"></label>
+                </div>
+        </div>
+    </section>
+
+
+    
+
+    <section class="formulario" id="formulario">
+        <div class="interface">
+            <h2 class="titulo">FALE <span>CONOSCO.</span></h2>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Seu Nome Completo: " required>
+                <input type="text" name="" id="" placeholder="Seu E-mail: " required>
+                <input type="text" name="" id="" placeholder="Seu Celular: ">
+                <textarea name="" id="" placeholder="Sua Mensagem" required></textarea>
+                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+            </form>
+        </div> <!--interface-->
+    </section> <!--formulario-->
+
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <a href="#">O<span>CEANS</span></a>
+                        <p>Baixe nosso aplicativo para Android e IOS.</p>
+                        <img src="img/img/play-store.png" alt="">
+                        <img src="img/img/app-store.png" alt="">
+                    </div> <!--logo-footer-->
+                    <div class="links-uteis">
+                        <h3>Links Úteis</h3>
+                        <ul>
+                            <li>Sobre os Oceanos</li>
+                            <li>Sobre os Oceanos</li>
+                            <li>Sobre os Oceanos</li>
+                            <li>Sobre os Oceanos</li>
+                            <li>Sobre os Oceanos</li>
+                        </ul>
+                    </div> <!--links-uteis-->
+                </div> <!--flex-->
+            </div> <!--line-footer-->
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="">oceans@gmail.com</a></p>
+            </div> <!--line-footer-->
+        </div> <!--interface-->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
